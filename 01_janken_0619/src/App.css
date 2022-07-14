@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+  z-index: 10;
+  transform: translateX(-50%);
+}
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+  .main-contents, .left-navi, .right-navi {
+    height: 400px;
+  }
+  .main-contents {
+    background-color: red;
+    color: #fff;
+    float: left;
+    width: 80%;
+  }
+  .left-navi {
+    background-color: blue;
+    color: #fff;
+    width: 20%;
+    float: right;
+  }
+  .right-navi {
+    background-color: green;
+    color: #fff;
+    float: right;
+    width: 20%;
+  }
+  .main{
+    width: 80%;
+    float: right;
+  }
+
+

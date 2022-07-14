@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(160deg, #1d1e1f 0%, #242138 100%);
+}
+
+.text__center {
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {   
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
+    
+  }
+
+
+
+
+  .emperor_title{
+    color: #c8c8c8;
+  }
+  .slave_title{
+    color: #e6e6e6;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 28px;
+  }
+  /* 
+  button
+  */
+
+
+  .title{
+    cursor: pointer;
+    font-size: 36px;
+    
+    
+  }
+
+  .choice__count{
+      position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 670px;
+  font-weight: normal;
+  }
+
+  a{
+	display: inline-block;
+	position: relative;
+	color: #7465e5;
+ 	text-decoration: none;
+     font-weight: bold;
+}
+
+a:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 3px;
+	background: #e6e6e6;
+	transform: scale(0, 1);
+	transition: 0.4s;
+}
+a:hover:before {
+	transform: scale(1);
+}
+ 
+ul{
+    display: flex;
+   
+   }
+li{
+    padding: 5px;
+    list-style-type: none;
+}
+ 
+  .YourCard{
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .OpponentCard{
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .result__field{
+    display: flex;
+  }
+  
+  

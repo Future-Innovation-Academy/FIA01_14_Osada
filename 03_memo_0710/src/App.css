@@ -1,0 +1,129 @@
+body{
+  background-image: linear-gradient(160deg, #1d1e1f 0%, #242138 100%);
+}
+
+
+.text__center{
+  text-align: center;
+}
+
+.App__title{
+  color: aliceblue;
+}
+
+
+.inputArea {
+  margin: auto ;
+  background-color: rgb(173, 174, 230);
+  width: 500px;
+  min-height: 70px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+.inputTodo{
+  
+  text-align: center;
+}
+.input__todo{
+  
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.button{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.output-flex{
+  display: flex;
+}
+
+
+
+
+
+
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 0px 16px;
+  margin: 3px;
+}
+
+button:hover {
+  background-color: #FF7FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+/* 未完了のタスクエリア */
+.imcompleteArea {
+  margin: auto ;
+  width: 500px; 
+  min-height: 300px;
+  background-color: rgb(163, 163, 163);
+  padding: 20px;
+  border-radius: 15px;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+.todolists{
+  display: flex;
+  margin: 10px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+}
+.checkbox{
+  margin-top: 10px;
+   width: 50px;
+}
+.todo__titles{
+  width: 300px;
+ 
+}
+
+.item__title{
+  font-size: 24px;
+}
+
+
+
+/* 完了のタスクエリア */
+.completeArea {
+  margin: auto ;
+  width: 500px;
+  min-height: 300px;
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+.title2 {
+  text-align: center;
+  font-weight: bold;  
+}
+.donelists{
+  display: flex;
+  margin: 10px;
+  background-color: rgb(161, 224, 181);
+  border-radius: 5px;
+}
+.done__titles{
+  width: 300px;
+}
+.number{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
